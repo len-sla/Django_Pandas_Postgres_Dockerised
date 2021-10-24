@@ -1,6 +1,6 @@
 
 
-## Dockerised Pandas, Jango Postgres for processing Mozilla Voice Data Sets Finnish
+## Dockerised Pandas, Django Postgres for processing Mozilla Voice Data Sets Finnish
  [pipeline notebook](pipeline_Finish_Post_SQL.ipynb)
 ---
 
