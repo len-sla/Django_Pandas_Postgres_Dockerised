@@ -5,7 +5,13 @@
 ---
 
 
-Most promising and very good described dockerising pandas jango and postgress was the way Davide Provasoli did this taskl the details are in the article https://medium.com/star-gazers/data-workflow-with-django-pandas-postgresql-and-docker-56fbf2bc1105. There were couple of small byt important preparations. Whole dockerisation was done in on local lubuntu machine.
+To  do dockerising constelation of pandas Django and Postgres proceeding presented by Davide Provasoli  was used.
+He presented all the details in  the article https://medium.com/star-gazers/data-workflow-with-django-pandas-postgresql-and-docker-56fbf2bc1105.
+
+---
+
+
+There was need to do couple of settings  in  local lubuntu machine.
 
 ![Dockerized Jango exporting to Postgres ](docker-jango-postgres.gif)
  
@@ -14,7 +20,7 @@ Most promising and very good described dockerising pandas jango and postgress wa
 ---
 
 
-There couple of things one need to take care when installing Docker on Ubuntu machines( details under this address): (https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04).
+All the  things one need to take care about when installing Docker on Ubuntu machines are under this address: (https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04).
 
 Next step was installing docker-compose latest version.
 Handy way of doing that is to check latest version with 
