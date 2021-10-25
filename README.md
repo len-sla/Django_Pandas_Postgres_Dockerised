@@ -72,5 +72,5 @@ You need to be careful to which column you assign primery key as first time I di
 to make quicker whole debuging(DEBUG=True in settings.py) VSCode was used as it has also docker extension. Effect is good though buy there are a lot places for improvement
 
 
-_Created by:_ [@len-sla]
+_Created by:_ [lencz.sla@gmail.com]
 
