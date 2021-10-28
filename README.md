@@ -68,8 +68,9 @@ class CsvData(models.Model):
     #audio_duration= = models.IntegerField() #this line is making problems
 ```
 
-You need to be careful to which column you assign primery key as first time I diddnt checked and client_id was used which crashed export to postgress because there ar eplenty of records with where only path, mp3 fileis unique.
-to make quicker whole debuging(DEBUG=True in settings.py) VSCode was used as it has also docker extension. Effect is good though buy there are a lot places for improvement
+You need to be careful to which column you assign primery key as first time I diddnt check and client_id was used which crashed export to postgress because there are plenty of records  where only path, mp3 fileis unique.
+to make quicker whole debuging(DEBUG=True in settings.py) VSCode was used as it has also docker extension. 
+Effect is good though there are a lot places for improvement
 
 
 _Created by:_ [lencz.sla@gmail.com]
