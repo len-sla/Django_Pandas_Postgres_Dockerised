@@ -3,7 +3,8 @@
 ## Dockerised Pandas, Django Postgres for processing Mozilla Voice Data Sets Finnish
  [pipeline notebook](pipeline_Finish_Post_SQL.ipynb)
 ---
-
+reason for preparig this was requirement to present proof of concept pipeline where particular tasks typical for pandas 
+were required and filtered and processed output should be stored in Postgres
 
 To  do dockerising constelation of pandas Django and Postgres proceeding presented by Davide Provasoli  was used.
 He presented all the details in  the article https://medium.com/star-gazers/data-workflow-with-django-pandas-postgresql-and-docker-56fbf2bc1105.
