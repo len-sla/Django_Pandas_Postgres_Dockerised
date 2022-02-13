@@ -9,7 +9,11 @@ were required and filtered and processed output should be stored in Postgres
 To  do dockerising constelation of pandas Django and Postgres proceeding presented by Davide Provasoli  was used.
 He presented all the details in  the [article](https://medium.com/star-gazers/data-workflow-with-django-pandas-postgresql-and-docker-56fbf2bc1105).
 Additionally very informative is also the  [post](https://testdriven.io/dockerizing-django-with-postgres-gunicorn-and-nginx) prepared by Michael Herman
+Only word about Django:
+ Get started with Django
+Meet Django
 
+Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Built to  take care of much of the hassle of web development, so you can focus on writing your app without needing to reinvent the wheel
 ---
 
 
