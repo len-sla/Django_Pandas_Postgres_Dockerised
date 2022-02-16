@@ -104,6 +104,7 @@ lets generate structure of our project answering questions on the way:
 cookiecutter gh:cookiecutter/cookiecutter-django
 ```
 like 
+
 ```
 project_name [My Awesome Project]: sound_pipe
 project_slug [sound_pipe]: 
@@ -169,16 +170,16 @@ keep_local_envs_in_vcs [y]:
 debug [n]: 
  [SUCCESS]: Project initialized, keep up the good work!
 ```
-as I need  docker so instead of default n I gave yes
-A syou see ther eare a kot of usefull options to choose and the tool take care about generating appropiate setup
-Structure was created 
-so you could check and build locally initial image( based on local.yml) to check if everything is working
+I need  docker so instead of default n yes was given
+There are a lot usefull options to choose and the tool take care about generating appropiate setup
+Structure was created so you could check and build locally initial image( based on local.yml) to check if everything is working
+
 ```
 docker-compose -f local.yml build
 ```
-everything was ok now lets place ectra app ie pandas and numpy for manipulation of the input data
-lets look for the appropiate ready to use image as 
-I see something like that
+I need some extra service pandas and numpy for manipulation of the input data 
+To reuse 3.9-slim-bullseye I took setup like below presented by:
+
 https://adamtheautomator.com/python-data-science-libraries/
 
 ```
@@ -201,8 +202,9 @@ RUN pip install nbterm numpy matplotlib seaborn pandas
 ```
 
 
-In the local.yml
-I added service pandas like below
+In the local.yml service pandas was added
+
+
 ```
   pandas:
     stdin_open: true
@@ -215,8 +217,9 @@ I added service pandas like below
     volumes:
       - ./pandas_data:/data:Z
  ```   
-    in the compos/local/pandas/start
-    is simply
+  in the composelocal/pandas/start
+    change was made to 
+    
     ```
     !/bin/bash
     ```
