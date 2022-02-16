@@ -80,11 +80,13 @@ You need to be careful to which column you assign primery key as first time I di
 to make quicker whole debuging(DEBUG=True in settings.py) VSCode was used as it has also docker extension. 
 Effect is good though there are a lot places for improvement
 
+
+---
+
 ## Using ready structure from cookiecutter to create you django environment in minutes
 
 
-you need to install it
-First, get Cookiecutter. Trust me, it's awesome:
+
 
 If you have docker and docker-compose installed  as mkvirtualenv tool
 next step is to create structure of projects etc.
