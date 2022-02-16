@@ -184,21 +184,15 @@ https://adamtheautomator.com/python-data-science-libraries/
 
 ```
 ARG PYTHON_VERSION=3.9-slim-bullseye
-
-# define an alias for the specfic python version used in this file.
 FROM python:${PYTHON_VERSION} as python
 
-# Image descriptions
 LABEL maintainer="SL"
 LABEL version="0.1"
 LABEL description = "pandas part image"
 
-# Specifies the working directory
 WORKDIR /data
-
-# Installs the Python data science libraries
 RUN pip install nbterm numpy matplotlib seaborn pandas
-#zostawmy to aby byl tam ten image  i mozliwosc odpalenia
+
 ```
 
 
