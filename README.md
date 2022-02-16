@@ -215,9 +215,9 @@ In the local.yml service pandas was added
     image: sound_pipe_loc_postgres
     container_name: sound_pipe_pandas_min
     volumes:
-      - ./pandas_data:/data:Z
+      - ./pandas_data:/data:Z /
  ```   
-  in the composelocal/pandas/start
+  in the compose/local/pandas/start
     change was made to 
     
     ```
